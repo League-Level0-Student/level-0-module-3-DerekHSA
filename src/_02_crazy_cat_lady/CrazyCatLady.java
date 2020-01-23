@@ -19,9 +19,11 @@ if (num>=3) {
 } else if (num>0) {
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 if(num<3) {
-	
+	playVideo("https://www.youtube.com/watch?v=XyNlqQId-nk");
 }
 
+}else {
+	playVideo("https://www.youtube.com/watch?v=oj_yLBltPE8");
 }
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
 		
