@@ -44,4 +44,14 @@ void setup() {
      size(500, 500);
      background(160, 160, 160);
       drawFlower(350, 100);
+      for(int i=0;i<20;i++){
+        if(i%2==0){
+          fill(#FFF700);
+        }else{
+          fill(#000000);
+        }
+        ellipse(-125-i*20,125-i*20,60,60);
+        
+      }
+      drawBeeFace(-125,125);
 }
